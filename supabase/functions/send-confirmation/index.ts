@@ -44,7 +44,7 @@ serve(async (req) => {
         Authorization: `Bearer ${resendKey}`,
       },
       body: JSON.stringify({
-        from: "TitikRevisi <noreply@titikrevisi.com>",
+        from: "TitikRevisi <onboarding@resend.dev>",
         to: [profile.email],
         subject: "Akses TitikRevisi sudah aktif!",
         html: `
